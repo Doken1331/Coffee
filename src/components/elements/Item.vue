@@ -1,5 +1,5 @@
 <template>
-    <img v-bind:src="props.imagePath" alt="image">
+    <img class="image" v-bind:src="props.imagePath" alt="image">
 </template>
 
 <script setup lang="ts">
@@ -15,5 +15,8 @@ const props = withDefaults(defineProps<IProps>(), {
 </script>
 
 <style scoped lang="scss">
-
+.image {
+    width: 100%;
+    margin: 32px auto;
+}
 </style>

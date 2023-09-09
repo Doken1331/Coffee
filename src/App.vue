@@ -10,6 +10,8 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import MainContent from '@/components/MainContent.vue'
+
+
 </script>
 
 <style scoped lang="scss">
