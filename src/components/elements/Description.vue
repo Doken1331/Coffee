@@ -13,5 +13,15 @@ const props = withDefaults(defineProps<IProps>(), {
 </script>
 
 <style scoped lang="scss">
+p {
+    max-width: 920px;
+    text-align: left;
+    margin-bottom: 56px;
+}
 
+@media screen and (max-width: 423px) {
+    p {
+        margin-bottom: 22px;
+    }
+}
 </style>

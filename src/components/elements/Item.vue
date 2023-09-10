@@ -3,7 +3,6 @@
 </template>
 
 <script setup lang="ts">
-
 interface IProps {
     imagePath: string;
 }
@@ -11,12 +10,13 @@ interface IProps {
 const props = withDefaults(defineProps<IProps>(), {
     imagePath: ""
 });
-
 </script>
 
 <style scoped lang="scss">
 .image {
+    pointer-events: none;
     width: 100%;
-    margin: 32px auto;
+    margin: 0 auto;
+    border-radius: 24px;
 }
 </style>
