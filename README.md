@@ -1,4 +1,4 @@
-# test-coffee2
+# test-coffee
 
 ## Project setup
 ```
